@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Kaiser</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- Enlaza tu hoja de estilos CSS personalizada -->
+    <link rel="icon" href="/immg/black-star-and-car.webp" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="immg/black-star-and-car.webp" alt="Logo de la tienda">
+            <h1>El Kaiser</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <img src="/immg/concesionaria.webp" alt="Imagen de ejemplo">
+    
+    
+    <main>
+        <section id="catalogo">
+            <h2>Catálogo de Autos y Motos</h2>
+            
+            <!-- Filtros de Categorías -->
+            <div class="filtros-catalogo">
+                <label for="filtro-categoria">Filtrar por Categoría:</label>
+                <select id="filtro-categoria">
+                    <option value="todos">Todos</option>
+                    <option value="autos">Autos</option>
+                    <option value="motos">Motos</option>
+                </select>
+            </div>
+            
+            <!-- Productos -->
+            <div class="productos">
+                <div class="producto">
+                    <img src="/immg/toyotaetios.png" alt="Auto 1"> 
+                    <h3>Nombre del Auto 1</h3>
+                    <p>Descripción corta del auto.</p>
+                    <p class="precio">$25,000</p>
+                    <button>Ver Detalles</button>
+                </div>
+                <div class="producto">
+                    <img src="/immg/moto.webp" alt="Moto 1">
+                    <h3>Nombre de la Moto 1</h3>
+                    <p>Descripción corta de la moto.</p>
+                    <p class="precio">$8,500</p>
+                    <button>Ver Detalles</button>
+                </div>
+                <!-- Agregar más productos aquí -->
+            </div>
+        </section>
+        
+        
+        <section id="pago">
+            <h2>Proceso de Pago Seguro</h2>
+            <div class="opciones-pago">
+                <div class="opcion">
+                    <img src="/img/tarjeta.webp" alt="Tarjeta de crédito">
+                    <p>Tarjetas de Crédito</p>
+                </div>
+                <div class="opcion">
+                    <img src="/img/tarjeta.webp" alt="Tarjeta de débito">
+                    <p>Tarjetas de Débito</p>
+                </div>
+                <div class="opcion">
+                    <img src="/img/Mercado_Pago.jpg" alt="Mercado Pago">
+                    <p>Mercado Pago</p>
+                </div>
+                <div class="opcion">
+                    <img src="/img/dolar.jpg" alt="Efectivo">
+                    <p>Pago en Efectivo</p>
+                </div>
+                <!-- Agregar más opciones de pago seguro aquí -->
+            </div>
+        </section>
+        
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-contenedor">
+                <div class="contacto-formulario">
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                        
+                        <label for="telefono">Número de Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                        
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="contacto-imagen">
+                    <img src="/immg/concesionaria.webp" alt="Imagen de contacto">
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="promociones">
+            <h2>Promociones y Descuentos</h2>
+            <button id="abrir-modal">Ver Promociones</button>
+            <div id="modal" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar-modal">&times;</span>
+                    <h3>Promociones y Descuentos</h3>
+                    <p>Aprovecha nuestras promociones y descuentos especiales para obtener grandes beneficios en tu compra.</p>
+                    <p>¡No te pierdas nuestras ofertas increíbles!</p>
+                    <!-- Agregar detalles específicos de promociones y descuentos aquí -->
+                    <button id="cerrar-modal">Cerrar</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="informacion-empresa">
+            <h2>Información sobre la Empresa</h2>
+            <div class="descripcion-empresa">
+                <h3>Nuestra Historia</h3>
+                <p>Somos una tienda en línea de autos y motos con una pasión por ofrecer vehículos de alta calidad y las últimas tendencias a nuestros clientes. Fundada en [Año de Fundación], nos esforzamos por proporcionar una experiencia de compra excepcional y un servicio al cliente excepcional.</p>
+                <h3>Nuestros Valores</h3>
+                <p>En El Kaiser, valoramos la calidad, la innovación y la satisfacción del cliente. Estamos comprometidos con brindar vehículos que cumplan con los estándares más altos y asegurarnos de que nuestros clientes estén satisfechos en cada paso del proceso de compra.</p>
+                <!-- Agregar más detalles sobre la empresa, valores y compromisos -->
+            </div>
+        </section>
+        
+    
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/immg/black-star-and-car.webp" alt="Logo de la tienda">
+                    <h3>El Kaiser</h3>
+                </div>
+                <div class="footer-redes">
+                    <div class="redes-sociales">
+                        <a href="#" target="_blank"><img src="/img/facebook-meta-social-media-logo-icon-technology-network-background-illustration-like-share-free-vector.jpg" alt="Facebook"></a>
+                        <a href="#" target="_blank"><img src="/img/Instagram_logo_2016.svg" alt="Instagram"></a>
+                        <!-- Agregar más enlaces a redes sociales aquí -->
+                    </div>
+                </div>
+                <div class="footer-enlaces">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#catalogo">Catálogo</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 El Kaiser. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        
+</html>

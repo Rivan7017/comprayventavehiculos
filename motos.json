@@ -1,0 +1,100 @@
+[
+    { "id": 1, "name": "Labial Mate", "price": 15, "category": "belleza" },
+    { "id": 2, "name": "Paleta de Sombras", "price": 25, "category": "belleza" },
+    { "id": 3, "name": "Máscara de Pestañas", "price": 12, "category": "belleza" },
+    { "id": 4, "name": "Base de Maquillaje", "price": 30, "category": "belleza" },
+    { "id": 5, "name": "Corrector de Ojeras", "price": 10, "category": "belleza" },
+    { "id": 6, "name": "Esmalte de Uñas", "price": 8, "category": "belleza" },
+    { "id": 7, "name": "Delineador de Ojos", "price": 12, "category": "belleza" },
+    { "id": 8, "name": "Crema Hidratante", "price": 20, "category": "belleza" },
+    { "id": 9, "name": "Lápiz Labial Líquido", "price": 18, "category": "belleza" },
+    { "id": 10, "name": "Paleta de Iluminadores", "price": 22, "category": "belleza" },
+    { "id": 11, "name": "Cepillo de Maquillaje", "price": 15, "category": "belleza" },
+    { "id": 12, "name": "Perfume Floral", "price": 50, "category": "belleza" },
+    { "id": 13, "name": "Crema Antiarrugas", "price": 28, "category": "belleza" },
+    { "id": 14, "name": "Mascarilla Facial", "price": 8, "category": "belleza" },
+    { "id": 15, "name": "Cepillo Alisador de Cabello", "price": 40, "category": "belleza" },
+    { "id": 16, "name": "Sérum Capilar", "price": 18, "category": "belleza" },
+    { "id": 17, "name": "Brochas de Maquillaje", "price": 25, "category": "belleza" },
+    { "id": 18, "name": "Exfoliante Corporal", "price": 15, "category": "belleza" },
+    { "id": 19, "name": "Rubor Compacto", "price": 12, "category": "belleza" },
+    { "id": 20, "name": "Crema de Manos", "price": 10, "category": "belleza" },
+    { "id": 21, "name": "Loción Corporal", "price": 18, "category": "belleza" },
+    { "id": 22, "name": "Cepillo Facial de Limpieza", "price": 30, "category": "belleza" },
+    { "id": 23, "name": "Gloss Labial", "price": 8, "category": "belleza" },
+    { "id": 24, "name": "Difusor de Aromas", "price": 22, "category": "belleza" },
+    { "id": 25, "name": "Cremas para Ojos", "price": 25, "category": "belleza" },
+    { "id": 26, "name": "Spray Fijador de Maquillaje", "price": 15, "category": "belleza" },
+    { "id": 27, "name": "Cortauñas", "price": 5, "category": "belleza" },
+    { "id": 28, "name": "Removedor de Esmalte", "price": 6, "category": "belleza" },
+    { "id": 29, "name": "Aceite de Coco", "price": 10, "category": "belleza" },
+    { "id": 30, "name": "Serum Facial", "price": 28, "category": "belleza" }
+]
+
+
+
+
+
+{
+    "id": 1,
+    "name": "Vestido de verano",
+    "price": 40,
+    "category": "ropa",
+    "image": "https://example.com/images/vestido_verano.jpg"
+},
+{
+    "id": 2,
+    "name": "Blusa estampada",
+    "price": 25,
+    "category": "ropa",
+    "image": "https://example.com/images/blusa_estampada.jpg"
+},
+{
+    "id": 3,
+    "name": "Jeans ajustados",
+    "price": 30,
+    "category": "ropa",
+    "image": "https://example.com/images/jeans_ajustados.jpg"
+},
+{
+    "id": 6,
+    "name": "Camiseta básica",
+    "price": 15,
+    "category": "ropa",
+    "image": "https://example.com/images/camiseta_basica.jpg"
+},
+{
+    "id": 7,
+    "name": "Paleta de Sombras",
+    "price": 25,
+    "category": "belleza",
+    "image": "https://example.com/images/paleta_sombras.jpg"
+},
+{
+    "id": 8,
+    "name": "Máscara de Pestañas",
+    "price": 12,
+    "category": "belleza",
+    "image": "https://example.com/images/mascara_pestanas.jpg"
+},
+{
+    "id": 9,
+    "name": "Base de Maquillaje",
+    "price": 30,
+    "category": "belleza",
+    "image": "https://example.com/images/base_maquillaje.jpg"
+},
+{
+    "id": 10,
+    "name": "Corrector de Ojeras",
+    "price": 10,
+    "category": "belleza",
+    "image": "https://example.com/images/corrector_ojeras.jpg"
+},
+{
+    "id": 11,
+    "name": "Esmalte de Uñas",
+    "price": 8,
+    "category": "belleza",
+    "image": "https://example.com/images/esmalte_unas.jpg"
+}
